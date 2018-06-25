@@ -1,5 +1,6 @@
 package ua.kiev.prog.automation.framework.core.product.component.object;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,13 +20,14 @@ import java.util.function.Function;
  */
 public class WidgetObject
 {
-    private RemoteWebDriver _driver;
-    private By              _locator;
-    //private WebElement      _element;
+    private RemoteWebDriver _driver ;
+
+    private By              _locator ; //test
 
     public WidgetObject (RemoteWebDriver driver, By locator)
     {
         _driver     = driver;
+
         _locator    = locator;
     }
 
@@ -49,11 +51,11 @@ public class WidgetObject
     {
         this.element().click();
     }
-
     public String getText ()
     {
         return this.element().getText();
     }
 
 
-}
+
+}  //end
