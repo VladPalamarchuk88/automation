@@ -47,7 +47,7 @@ public class LoginTest extends Test
         // Переходим на страницу логина
         LoginPage loginPage = mainPage.getLoginPage();
         // Заходим на форум
-        MainPageLoggedIn dashboard = loginPage.login("username", "password");
+        MainPageLoggedIn dashboard = loginPage.login("VladPalamarchuk", "vlad6788");
         // Подтверждаем что вход осуществлен
         this.assertSuccess(dashboard, "Login");
         // Выводим в консоль имя пользователя на форуме
