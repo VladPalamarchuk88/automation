@@ -13,7 +13,7 @@ public class App
 
     static public void main(String[] args)
     {
-        if (args[0].equals("standalone"))
+        if (args.length > 0 && args[0].equals("standalone"))
             _standalone = true;
 
         System.setProperty ("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
