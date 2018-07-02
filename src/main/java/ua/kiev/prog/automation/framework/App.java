@@ -1,7 +1,6 @@
 package ua.kiev.prog.automation.framework;
 
 import ua.kiev.prog.automation.framework.product.app.ProgKievUa;
-
 public class App
 {
     static public void main(String[] args)
